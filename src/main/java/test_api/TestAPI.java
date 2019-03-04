@@ -70,7 +70,7 @@ public class TestAPI {
                 .log().body();
     }
 
-    @Test
+    @Test(description = "delete")
     public void testDelete() {
         given()
                 .when()
